@@ -1,0 +1,23 @@
+alias zshconfig="oni ~/.zshrc"
+alias omzconfig="oni ~/.oh-my-zsh"
+
+## Env Aliases
+alias ping="ping -c 5"
+alias untar='tar -zxvf '
+alias untar='tar -zxvf '
+alias ipe='curl ipinfo.io/ip'
+alias ipi='ipconfig getifaddr en0'
+alias cl='clear'
+## Git Aliases
+alias ga="git add"
+alias gplr="git pull --rebase"
+alias gc="git commit"
+alias gs="git status"
+alias gl="git log"
+## Timestamp Aliases
+alias tsjf='date "+%Y-%m-%dT%H:%M:%S"'
+alias tssjf='date "+%Y%m%d%H%M%S"'
+alias dsjf='date "+%Y-%m-%d"'
+alias dssjf='date "+%Y%m%d"'
+## Usagge
+alias zvu="echo \"Use ESC or CTRL-[ to enter Normal mode.\n\nHistory\n-------\nctrl-p : Previous command in history\nctrl-n : Next command in history\n/      : Search backward in history\nn      : Repeat the last /\n\nMode indicators\n---------------\n*Normal mode* is indicated with red <<< mark at the right prompt, when it\nwasn't defined by theme.\n\nVim edition\n-----------\nv   : Edit current command line in Vim\n\nMovement\n--------\n$   : To the end of the line\n^   : To the first non-blank character of the line\n0   : To the first character of the line\nw   : [count] words forward\nW   : [count] WORDS forward\ne   : Forward to the end of word [count] inclusive\nE   : Forward to the end of WORD [count] inclusive\nb   : [count] words backward\nB   : [count] WORDS backward\nt{char}   : Till before [count]'th occurrence of {char} to the right\nT{char}   : Till before [count]'th occurrence of {char} to the left\nf{char}   : To [count]'th occurrence of {char} to the right\nF{char}   : To [count]'th occurrence of {char} to the left\n;   : Repeat latest f, t, F or T [count] times\n,   : Repeat latest f, t, F or T in opposite direction\n\nInsertion\n---------\ni   : Insert text before the cursor\nI   : Insert text before the first character in the line\na   : Append text after the cursor\nA   : Append text at the end of the line\no   : Insert new command line below the current one\nO   : Insert new command line above the current one\n\nDelete and Insert\n-----------------\nctrl-h      : While in *Insert mode*: delete character before the cursor\nctrl-w      : While in *Insert mode*: delete word before the cursor\nd{motion}   : Delete text that {motion} moves over\ndd          : Delete line\nD           : Delete characters under the cursor until the end of the line\nc{motion}   : Delete {motion} text and start insert\ncc          : Delete line and start insert\nC           : Delete to the end of the line and start insert\nr{char}     : Replace the character under the cursor with {char}\nR           : Enter replace mode: Each character replaces existing one\nx           : Delete [count] characters under and after the cursor\nX           : Delete [count] characters before the cursor\n\""
